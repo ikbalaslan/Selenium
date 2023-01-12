@@ -1,0 +1,6 @@
+2023-01-07 20:15:49,363 DEBUG i.n.u.i.PlatformDependent0 [main] Java version: 11
+2023-01-07 20:15:49,365 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.theUnsafe: available
+2023-01-07 20:15:49,366 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.copyMemory: available
+2023-01-07 20:15:49,366 DEBUG i.n.u.i.PlatformDependent0 [main] sun.misc.Unsafe.storeFence: available
+2023-01-07 20:15:49,366 DEBUG i.n.u.i.PlatformDependent0 [main] java.nio.Buffer.address: available
+2023-01-07 20:15:49,367 DEBUG i.n.u.i.PlatformDependent0 [main] direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
