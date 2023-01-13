@@ -26,11 +26,11 @@ public class Q01 {
     @Test
     public void test() throws IOException {
 
-       FileInputStream fileInputStream = new FileInputStream("./src/test/java/resources/EarningList.xlsx");
+        FileInputStream fileInputStream = new FileInputStream("./src/test/java/resources/EarningList.xlsx");
         Workbook workbook = WorkbookFactory.create(fileInputStream);
         Sheet sheet = workbook.getSheetAt(0);
         List<Double> list = new ArrayList<>();
-     Cell x =  sheet.getRow(1).getCell(1);
+        Cell x =  sheet.getRow(1).getCell(1);
         for (int i = 1;i<=sheet.getLastRowNum();i++){
             list.add(Double.valueOf(String.valueOf(sheet.getRow(i).getCell(1))));
         }
